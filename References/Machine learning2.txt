@@ -1,0 +1,26 @@
+I am doing great, whats up with you today?
+How am I , I am going great guns today.........
+
+yes sure this is the right place to run a few algorithms on your dataset.
+Oh great, so you have come at the right place to process your dataset.
+Oh great, lets run some wonderful machine learning algorithms on your dataset....Which algorithm would you like to run classification or regression or NLP algorithm?
+
+I should thank you, for choosing us to analyze your dataset.
+
+You have come at the right place,  would you like to run a classification algorithm a regression algorithm or NLP algorithm?.
+
+Thats wonderful , but can you tell me which specific algorithm you would like to run?. 
+So you want to run  _____ regression we will run it in a few minutes, but first let me take the link for your dataset.
+
+Thats wonderful , but can you tell me which specific algorithm you would like to run?.
+
+
+Wonderful you want to run a NLP algorithm, butt tell me which NLP algorithm you want to run?. 
+Oh thats great lets run the NLP algorithm, but first let me take the link for your dataset.
+
+Thanks for the link, now may I know the label or the target column?
+
+So ______ would be your label/target column... thank you for providing all the data... now just sit back and enjoy the magic of ML.
+
+
+

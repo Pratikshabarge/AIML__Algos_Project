@@ -4,7 +4,7 @@ this is the latest code for our project,   it is made out of intents and html ja
 though it is completely different from our original code, in that the chatbot is completely made out of predetermined inputs and responses. But it is highly trained and gives 
 the correct response to your query.
 I am facing one big problem in this project. Though I am able to display the text, like reports and matrix,   I am not able to display the images like the plots and corr matrix.
-I hope you guys help me in that , I am attaching the templates folder for the chat and home html files as well as intent file.  Please help me with the completing our project.
+I hope you guys help me in that , I am attaching the chat and home html files please include them in the templates folder  as well as intent file add them in the colab temporary store.  Please help me with the completing our project.
 
 Regards,
 Poojan

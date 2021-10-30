@@ -1,0 +1,77 @@
+{"intents": [
+{"tag": "greetings",
+"patterns": ["Hi there!","Hi!","Hey!","Hola!", "Hello!", "Good day!"],
+"responses": ["Hi!\n We are going to solve all your dataset queries over here", 
+"Hi there, how can I help?",
+"Hello, May I know what is your query?",
+"Hi there"],
+"context": [""]
+},
+
+{"tag": "basic_dataset_queries",
+"patterns": [ "i wan to run a few algorithms on my dataset", "I want to process my dataset"],
+"responses": ["Oh great, so you have come at the right place to process your dataset", "Oh so lets solve some problems on your dataset"],
+"context": [""]
+},
+
+{"tag": "ML-Deep-query",
+"patterns": ["I want to run ml algorithm" , "I want to run a few machine learning algorithms on my dataset",
+                 "I want to run a few deep learning algorithms on my dataset", "machine learning", "ml", "deep learning"],
+"responses": ["Wonderful , but can you tell me which specific machine learning algorithm type, classification, regression or deep learning?",
+                  "Wonderful , but can you tell me which specific ML algorithm you would like to run, classification, regression or deep learning?"],
+"context": [""]
+},
+
+{"tag": "classification",
+"patterns": ["classification", "classification algorithm","I would like to run classification algorithm","well it would be classification"],
+"responses": ["Great , So which classification algorithm?", "Ok, so may I know the specific classification algorithm",
+                     "wonderful, so which classification algorithm"],
+"context": [""]
+},
+
+{"tag": "regression",
+"patterns": ["regression" , "regression algorithm" , "I would like to run regression algorithm",
+                   "well it would be regression"],
+"responses": ["Great , So which regression algorithm?", "Ok, so may I know the specific regression algorithm",
+                     "wonderful, so which regression algorithm"],
+"context": [""]
+},
+
+{"tag": "deep",
+"patterns": ["deep"],
+"responses": ["Great , So which Deep Learning algorithm?", "Ok, so may I know the specific deep learning algorithm",
+                     "wonderful, so which deep learning algorithm"],
+"context": [""]
+},
+
+{"tag" : "regression specific",
+"patterns": ["linear regression", "decision tree regression", "support vector regression", "lasso regression","ridge regression",  "random forest regression","Logistic Regression"],
+"responses": ["Thanks , Please Provide me the Target label  in Double Quotes, and the Link for your dataset , It should start with https://,,,,"]
+ },
+
+{"tag" : "classification specific",
+"patterns":  ["Logistic Regression","Naive Bayes","Stochastic Gradient Descent", "K-Nearest Neighbours", "Decision Tree Classifier", "Decision Tree Classification","Random Forest classifier", "Random Forest Classification", "Support Vector Machine", "Support Vector Classification"],
+"responses": ["Thanks , Please Provide me the Target label  in Double Quotes, and the Link for your dataset , It should start with https://,,,,"]
+ },
+
+{"tag" : "deep specific",
+"patterns":  ["Convolutional Neural Network", "Long Short Term Memory Networks (LSTMs)" , "Recurrent Neural Networks (RNNs)" , "BERT", "Transfer Learning"],
+"responses": ["Thanks, Now please provide me the link for your Zipped data it should start with https://,,,,,."]
+ },
+
+{"tag" : "label and link",
+"patterns":  ["https://" , "well its https://" , "and https://", "the link for the dataset is https:// "],
+"responses": ["Thats your result", "Have a wonderful day", "Good Bye and Take care"]
+ },
+
+
+
+
+{"tag": "test",
+        "patterns": ["t"],
+        "responses": ["1","2","3","4","5"],
+        "context": [""]
+        }
+
+]
+}

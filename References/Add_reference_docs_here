@@ -21,7 +21,7 @@ Poojan
 https://colab.research.google.com/drive/1GzXB3C5wcgDsULEF-ons_V2CFDxd46Wa?usp=sharing
 
   This is the latest link wherein the plots and matrix are also getting displayed,  I have created a different css file under static folder for better display. Other files namely chat.html
-  and intents.json have also been updated.  now the only thing that remains is to stop the running of the program when the report is generated. Wish you good luck with that.
+  and intents.json have also been updated .  now the only thing that remains is to stop the running of the program when the report is generated. Wish you good luck with that.
   
 Regards,
 Poojan

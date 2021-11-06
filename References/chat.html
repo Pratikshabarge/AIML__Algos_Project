@@ -2,8 +2,12 @@
 <html>
 <head>    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
+  <br>
+  <br>
+  <br>
     <center>
         <h1>
                   Your Personal ChatBot
@@ -18,9 +22,9 @@
 
           <div id="chatbox">
             <img
-              src="https://user-images.githubusercontent.com/20112458/49326597-773b7280-f57a-11e8-853d-20ed61d18b0d.png"
+              src = "https://raw.githubusercontent.com/najoop123/git-demo-best/ea3823dd1ae1691cc96b4b49ff791e1295723e73/chatbot-Project-jpg.jpg"
               alt="Chattie"
-              style="width:40px;height:40px;"
+              width="360" height="250"
             />
             <p class="botText">
               <span>Hi! I'm ChatBot</span>
@@ -30,9 +34,7 @@
           <div id="userInput">
             <input id="textInput" type="text" name="msg" placeholder="Message" />
           </div>
-          <div id="userImg">
-            <input id="imgInput" type="image" name="msg" placeholder="Message" />
-          </div>
+
         </div>
       </center>
         <script>
@@ -47,13 +49,6 @@
               .scrollIntoView({ block: "start", behavior: "smooth" });
             $.get("/get", { msg: rawText }).done(function(data) {
               var botHtml = '<p class="botText"  class = "center"  style = "font-size:40px;"><span>' + data + "</span></p>";
-              $("#chatbox").append(botHtml);
-              document
-                .getElementById("userInput")
-                .scrollIntoView({ block: "start", behavior: "smooth" });
-            });
-            $.get("/get", { msg: rawText }).done(function(data) {
-              var botHtml = '<picture img = "" class="botText"  class = "center"  style = "font-size:40px;"></picture>';
               $("#chatbox").append(botHtml);
               document
                 .getElementById("userInput")

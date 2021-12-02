@@ -30,3 +30,12 @@ https://colab.research.google.com/drive/1GzXB3C5wcgDsULEF-ons_V2CFDxd46Wa?usp=sh
     This is the full and final link for the project,  most propably on my name only.
 Regards,
 Poojan
+
+Hi,   This is the old chatbot program with the implementation of flask. It will be better for you to understand and implement. 
+https://raw.githubusercontent.com/vaksakalli/datasets/master/boston_housing.csv
+you have to include chat.html under templates,  with additional storage.txt(which i have added in github) to run the program properly.
+
+Regards,
+Poojan
+
+

@@ -1,0 +1,35 @@
+Hi. Hi there. Hello. Hello there. Hello, I am fine buddy. Hi, I am fine buddy.
+
+I am doing fine, may I know your query.
+I am doin fine, may I know your query.  
+I am fine, may I know your query.
+Well then , lets get on with the work!.
+So whats up at the workfront.
+
+
+Oh great, so you have come at the right place to process your dataset.
+
+
+
+Oh so lets solve your problem with the dataset
+
+Wonderful , but can you tell me which specific machine learning algorithm type, classification, regression or deep learning?
+
+Wonderful , but can you tell me which specific ML algorithm you would like to run, classification or regression or deep learning? 
+
+Wonderful , but can you tell me which specific Regression algorithm you would like to run?
+
+Wonderful , but can you tell me which specific Classification algorithm would you like to run?
+
+Wonderful , but can you tell me which specific deep learning algorithm you would like to run?
+
+Wonderful, now can you tell me which specific algorithm you would like to run?
+
+
+
+Great , So which classification algorithm?
+
+
+Great, So which regression algorithm?
+
+Great, So which deep learning algorithm?
